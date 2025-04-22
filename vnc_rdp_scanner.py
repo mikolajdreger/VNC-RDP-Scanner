@@ -36,7 +36,7 @@ def get_virustotal_info(ip):
         print(f"Błąd uzyskiwania danych z VirusTotal: {e}")
         return None
 
-# Wykonanie zapytania nc na otwartym porcie
+# Wykonanie zapytania o konfigurację VNC
 def check_vnc(ip, port):
     nc_command = f"nc -nv {ip} {port}"
     result = subprocess.run(nc_command.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -97,5 +97,5 @@ def scan_datacenters(csv_file, output_file):
                 results += "\n"
                 outfile.write(results)
 
-# Uruchomienie skanera
+
 scan_datacenters('ip_list.csv', 'wyniki_skanowania.txt')
