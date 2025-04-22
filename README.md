@@ -3,7 +3,7 @@
 ## About The Project
 <br />
 
-VNC&RDP Scanner is a simple tool designed to perform basic scans of RDP and VNC service availability and check VNC configuration. The script uses a list of IP addresses saved in the ip_list.csv file and after performing the scan generates a report in the file wyniki_skanowania.txt.
+VNC&RDP Scanner is a simple tool designed to perform basic scans of RDP and VNC service availability and check VNC configuration. The script uses a list of IP addresses saved in the ip_list.csv file and after performing the scan generates a report in the file wyniki_skanowania.txt. The script integrates with VirusTotal and Shodan to complete information about the target IP.
 
 ## Getting Started
 Below I'll give you information on how to properly run the tool.
