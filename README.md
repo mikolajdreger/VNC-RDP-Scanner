@@ -10,7 +10,7 @@ Below I'll give you information on how to properly run the tool.
 
 ### Prerequisites
 Before running the script, make sure you have all the necessary modules installed. Please note that if you want to use integration with VirusTotal and Shodan, you must add your API key to the script.
-# Note! Remember that before you perform a scan, the owner of the target IP address must consent to its scanning!
+#### Note! Remember that before you perform a scan, the owner of the target IP address must consent to its scanning!
 
 To run the script, follow the steps below:
 
