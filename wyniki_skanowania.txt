@@ -1,0 +1,17 @@
+Raport skanowania - 2025-04-19 17:50:06
+
+ADRES IP: 8.8.8.8 | NAZWA: Firma 1
+NMAP:
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-19 17:50 CEST
+Nmap scan report for sub.domain.com (8.8.8.8)
+Host is up (0.031s latency).
+
+PORT     STATE    SERVICE
+3389/tcp filtered ms-wbt-server
+5900/tcp open     vnc
+5901/tcp filtered vnc-1
+
+Nmap done: 1 IP address (1 host up) scanned in 3.96 seconds
+Dane konfiguracji VNC (5900):
+(UNKNOWN) [8.8.8.8] 5900 (?) open
+VNC 2.1 VNC Enable. Connectted Ip = 8.8.2.1 Send Status :Wait Screen Change!
